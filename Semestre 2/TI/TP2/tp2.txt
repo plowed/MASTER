@@ -1,0 +1,64 @@
+// Effacer la memoire de travail de Scilab
+clear;
+// Chargement des fonctions externes
+exec ('tiProjection.sci');
+// Definition d'un cube de cote unite, sommets et aretes
+[pCube, sCube] = tiCube (1);
+
+
+
+pCube =  rotationZ(60) * pCube
+pCube =  rotationX(60) * pCube
+pCube =  rotationY(60) * pCube
+pCube = translation(0.2,-0.4,-0.3) * pCube
+
+// Matrice de projection 3D -> 2D
+M = [-360 0 80 400; 0 -360 60 300; 0 0 0.2 1];
+// Projection des sommets du cube
+p = M * pCube;
+
+
+// Passage en coordonnees cartesiennes
+p = [p(1,:) ./ p(3,:); p(2,:) ./ p(3,:)];
+// Affichage dans la figure 1
+tiAfficheObjet2D (1, [600, 800], p, sCube);
+
+
+
+
+
+
+
+// GRILLE
+
+
+
+// Effacer la memoire de travail de Scilab
+clear;
+
+// Chargement des fonctions externes
+exec ('tiProjection.sci');
+
+// Definition d'une grille
+[pGrille, sGrille] = tiGrille (5, 5, 0.5);
+
+
+
+// Matrice de projection 3D -> 2D
+M = [-360 0 80 400; 0 -360 60 300; 0 0 0.2 1];
+
+// Projection des sommets de la grille
+p = M * pGrille;
+
+
+p2=rotationX(30);
+
+p3 = p2*p
+
+
+
+// Passage en coordonnees cartesiennes
+p3 = [p3(1,:) ./ p3(3,:); p3(2,:) ./ p3(3,:)];
+// Affichage dans la figure 1
+tiAfficheObjet2D (1, [600, 800], p3, sGrille);
+
