@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Application Version</key><string>10.1.2</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>0B327059ABA9679E</string>
+	<key>Tracks</key>
+	<dict>		
+		<key>219</key>
+		<dict>
+			<key>Track ID</key><integer>219</integer>
+			<key>Name</key><string>Ruby</string>
+			<key>Artist</key><string>Ali Farka Touré &#38; Toumani Diabaté</string>
+			<key>Album</key><string>Ali &#38; Toumani</string>
+			<key>Genre</key><string>World</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>8543672</integer>
+			<key>Total Time</key><integer>355892</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-08-28T10:16:04Z</date>
+			<key>Date Added</key><date>2010-08-30T19:40:27Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3376041006</integer>
+			<key>Play Date UTC</key><date>2010-12-24T12:10:06Z</date>
+			<key>Persistent ID</key><string>C236ED5B58BADC96</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Ali%20Farka%20Toure%CC%81%20&#38;%20Toumani%20Diabate%CC%81/Ali%20&#38;%20Toumani/01%20Ruby.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>223</key>
+		<dict>
+			<key>Track ID</key><integer>223</integer>
+			<key>Name</key><string>No More Mr Nice Guy</string>
+			<key>Artist</key><string>Alice Cooper</string>
+			<key>Album</key><string>Dug Dug Compilation</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>4504377</integer>
+			<key>Total Time</key><integer>187245</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2010-08-30T19:41:07Z</date>
+			<key>Date Added</key><date>2010-08-30T19:40:48Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3372998582</integer>
+			<key>Play Date UTC</key><date>2010-11-19T07:03:02Z</date>
+			<key>Persistent ID</key><string>179E71B0E96E2565</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Alice%20Cooper/Dug%20Dug%20Compilation/12%20No%20More%20Mr%20Nice%20Guy.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>243</key>
+		<dict>
+			<key>Track ID</key><integer>243</integer>
+			<key>Name</key><string>Feediop</string>
+			<key>Artist</key><string>Avishai Cohen</string>
+			<key>Composer</key><string>Cohen</string>
+			<key>Album</key><string>At Home</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>8438926</integer>
+			<key>Total Time</key><integer>351529</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2010-08-28T10:17:54Z</date>
+			<key>Date Added</key><date>2010-08-30T20:14:13Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>F282A66A59276CEA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Avishai%20Cohen/At%20Home/01%20Feediop.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>267</key>
+		<dict>
+			<key>Track ID</key><integer>267</integer>
+			<key>Name</key><string>Fool For A Lonesome Train</string>
+			<key>Artist</key><string>Ben Harper &#38; The Innocent Criminals</string>
+			<key>Composer</key><string>Ben Harper</string>
+			<key>Album</key><string>Lifeline</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5042218</integer>
+			<key>Total Time</key><integer>209998</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2010-08-28T10:19:36Z</date>
+			<key>Date Added</key><date>2010-08-30T20:15:02Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3372333496</integer>
+			<key>Play Date UTC</key><date>2010-11-11T14:18:16Z</date>
+			<key>Persistent ID</key><string>A43F2D5DCB0F3EE1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Ben%20Harper%20&#38;%20The%20Innocent%20Criminals/Lifeline/03%20Fool%20For%20A%20Lonesome%20Train.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>275</key>
+		<dict>
+			<key>Track ID</key><integer>275</integer>
+			<key>Name</key><string>Rainy Day Woman #12 &#38; 35</string>
+			<key>Artist</key><string>Ben Sidran</string>
+			<key>Composer</key><string>Bob Dylan</string>
+			<key>Album</key><string>Dylan Different</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5443438</integer>
+			<key>Total Time</key><integer>226716</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2010-08-28T10:20:02Z</date>
+			<key>Date Added</key><date>2010-08-30T20:15:14Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3376467951</integer>
+			<key>Play Date UTC</key><date>2010-12-29T10:45:51Z</date>
+			<key>Persistent ID</key><string>AA24E6DE1C1CD105</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Ben%20Sidran/Dylan%20Different/05%20Rainy%20Day%20Woman%20%2312%20&#38;%2035.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>287</key>
+		<dict>
+			<key>Track ID</key><integer>287</integer>
+			<key>Name</key><string>On The Fourth Of July</string>
+			<key>Artist</key><string>Biréli Lagrène &#38; Sylvain Luc</string>
+			<key>Composer</key><string>James Taylor</string>
+			<key>Album</key><string>Summertime</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5589559</integer>
+			<key>Total Time</key><integer>232803</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-08-28T10:21:18Z</date>
+			<key>Date Added</key><date>2010-08-30T20:15:21Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3376468183</integer>
+			<key>Play Date UTC</key><date>2010-12-29T10:49:43Z</date>
+			<key>Persistent ID</key><string>0B7BFEF259C9EB61</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Bire%CC%81li%20Lagre%CC%80ne%20&#38;%20Sylvain%20Luc/Summertime/03%20On%20The%20Fourth%20Of%20July.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>295</key>
+		<dict>
+			<key>Track ID</key><integer>295</integer>
+			<key>Name</key><string>Waltz For Ruth</string>
+			<key>Artist</key><string>Charlie Haden &#38; Pat Metheny</string>
+			<key>Composer</key><string>Charlie Haden</string>
+			<key>Album</key><string>Beyond The Missouri Sky (Short Stories)</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6462876</integer>
+			<key>Total Time</key><integer>269191</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>1997</integer>
+			<key>Date Modified</key><date>2010-08-28T10:27:04Z</date>
+			<key>Date Added</key><date>2010-08-30T20:15:39Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3376467724</integer>
+			<key>Play Date UTC</key><date>2010-12-29T10:42:04Z</date>
+			<key>Persistent ID</key><string>43A9E552924A0006</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Charlie%20Haden%20&#38;%20Pat%20Metheny/Beyond%20The%20Missouri%20Sky%20(Short%20Stories)/01%20Waltz%20For%20Ruth.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>317</key>
+		<dict>
+			<key>Track ID</key><integer>317</integer>
+			<key>Name</key><string>Little Wing</string>
+			<key>Artist</key><string>Derek And The Dominos</string>
+			<key>Album</key><string>Layla &#38; other assorted love songs</string>
+			<key>Genre</key><string>Blues Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5351296</integer>
+			<key>Total Time</key><integer>334393</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Year</key><integer>1970</integer>
+			<key>Date Modified</key><date>2010-08-30T20:17:03Z</date>
+			<key>Date Added</key><date>2010-08-30T20:16:21Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>46DE566F3B528DF1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Derek%20And%20The%20Dominos/Layla%20&#38;%20other%20assorted%20love%20songs/11%20Little%20Wing.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>337</key>
+		<dict>
+			<key>Track ID</key><integer>337</integer>
+			<key>Name</key><string>Heard It All Before</string>
+			<key>Artist</key><string>Emiliana Torrini</string>
+			<key>Album</key><string>Me And Armini</string>
+			<key>Genre</key><string>Alternative &#38; Punk</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6093571</integer>
+			<key>Total Time</key><integer>253805</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-08-28T10:51:14Z</date>
+			<key>Date Added</key><date>2010-08-30T20:16:53Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3366838236</integer>
+			<key>Play Date UTC</key><date>2010-09-08T23:50:36Z</date>
+			<key>Persistent ID</key><string>E1F30135E470007F</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Emiliana%20Torrini/Me%20And%20Armini/04%20Heard%20It%20All%20Before.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>349</key>
+		<dict>
+			<key>Track ID</key><integer>349</integer>
+			<key>Name</key><string>Destiny Blues</string>
+			<key>Artist</key><string>Eric Bibb</string>
+			<key>Composer</key><string>Eric Bibb</string>
+			<key>Album</key><string>Diamond Days</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5133714</integer>
+			<key>Total Time</key><integer>213812</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2006</integer>
+			<key>Date Modified</key><date>2010-08-28T10:57:32Z</date>
+			<key>Date Added</key><date>2010-08-30T20:17:10Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3374442675</integer>
+			<key>Play Date UTC</key><date>2010-12-06T00:11:15Z</date>
+			<key>Persistent ID</key><string>98B34FE70DF1A0C8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Eric%20Bibb/Diamond%20Days/02%20Destiny%20Blues.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>363</key>
+		<dict>
+			<key>Track ID</key><integer>363</integer>
+			<key>Name</key><string>1 2 3 4</string>
+			<key>Artist</key><string>Feist</string>
+			<key>Composer</key><string>Leslie Feist</string>
+			<key>Album</key><string>The Reminder</string>
+			<key>Genre</key><string>Electronica/Dance</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>4411492</integer>
+			<key>Total Time</key><integer>183719</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2010-08-28T11:02:04Z</date>
+			<key>Date Added</key><date>2010-08-30T20:17:41Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3369583283</integer>
+			<key>Play Date UTC</key><date>2010-10-10T18:21:23Z</date>
+			<key>Sort Album</key><string>Reminder</string>
+			<key>Persistent ID</key><string>D196027D8849CA4D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Feist/The%20Reminder/09%201%202%203%204.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>389</key>
+		<dict>
+			<key>Track ID</key><integer>389</integer>
+			<key>Name</key><string>La Fille Du Père Noël</string>
+			<key>Artist</key><string>Jacques Dutronc</string>
+			<key>Album</key><string>36 Grands Succés (Disc 1)</string>
+			<key>Genre</key><string>World</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>3739424</integer>
+			<key>Total Time</key><integer>155715</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2010-08-28T11:09:00Z</date>
+			<key>Date Added</key><date>2010-08-30T20:18:06Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3377375689</integer>
+			<key>Play Date UTC</key><date>2011-01-08T22:54:49Z</date>
+			<key>Sort Name</key><string>Fille Du Père Noël</string>
+			<key>Persistent ID</key><string>E3A80966F631EDAB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Jacques%20Dutronc/36%20Grands%20Succe%CC%81s%20(Disc%201)/1-08%20La%20Fille%20Du%20Pe%CC%80re%20Noe%CC%88l.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>391</key>
+		<dict>
+			<key>Track ID</key><integer>391</integer>
+			<key>Name</key><string>Les Play Boys</string>
+			<key>Artist</key><string>Jacques Dutronc</string>
+			<key>Album</key><string>36 Grands Succés (Disc 1)</string>
+			<key>Genre</key><string>World</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>4569482</integer>
+			<key>Total Time</key><integer>190302</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2010-08-28T11:09:02Z</date>
+			<key>Date Added</key><date>2010-08-30T20:18:06Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Sort Name</key><string>Play Boys</string>
+			<key>Persistent ID</key><string>4B4DA2BECBF9BFFB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Jacques%20Dutronc/36%20Grands%20Succe%CC%81s%20(Disc%201)/1-05%20Les%20Play%20Boys.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>405</key>
+		<dict>
+			<key>Track ID</key><integer>405</integer>
+			<key>Name</key><string>Nobody's Fault But Mine</string>
+			<key>Artist</key><string>Jimmy Page &#38; Robert Plant</string>
+			<key>Composer</key><string>J.Page - R.Plant</string>
+			<key>Album</key><string>No Quarter: Jimmy Page &#38; Robert Plant Unledded (Live)</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>5883617</integer>
+			<key>Total Time</key><integer>245054</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>1994</integer>
+			<key>Date Modified</key><date>2010-08-28T11:14:32Z</date>
+			<key>Date Added</key><date>2010-08-30T20:18:36Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>F134964B6301F87D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Jimmy%20Page%20&#38;%20Robert%20Plant/No%20Quarter_%20Jimmy%20Page%20&#38;%20Robert%20Plant%20Unledded%20(Live)/01%20Nobody's%20Fault%20But%20Mine.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>419</key>
+		<dict>
+			<key>Track ID</key><integer>419</integer>
+			<key>Name</key><string>Lie To Me</string>
+			<key>Artist</key><string>Jonny Lang</string>
+			<key>Composer</key><string>Bruce McCabe and David Z</string>
+			<key>Album</key><string>Lie To Me</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6034634</integer>
+			<key>Total Time</key><integer>251350</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>1996</integer>
+			<key>Date Modified</key><date>2010-08-28T11:19:12Z</date>
+			<key>Date Added</key><date>2010-08-30T20:19:01Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2010-10-31T18:44:37Z</date>
+			<key>Persistent ID</key><string>E0774173522CBE90</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Jonny%20Lang/Lie%20To%20Me/01%20Lie%20To%20Me.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>435</key>
+		<dict>
+			<key>Track ID</key><integer>435</integer>
+			<key>Name</key><string>For All We Know</string>
+			<key>Artist</key><string>Keith Jarrett &#38; Charlie Haden</string>
+			<key>Album</key><string>Jasmine</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>14147838</integer>
+			<key>Total Time</key><integer>589400</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-08-28T11:21:32Z</date>
+			<key>Date Added</key><date>2010-08-30T20:19:29Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>5</integer>
+			<key>Play Date</key><integer>3375607878</integer>
+			<key>Play Date UTC</key><date>2010-12-19T11:51:18Z</date>
+			<key>Persistent ID</key><string>4A0099B7056AA698</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Keith%20Jarrett%20&#38;%20Charlie%20Haden/Jasmine/01%20For%20All%20We%20Know.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>437</key>
+		<dict>
+			<key>Track ID</key><integer>437</integer>
+			<key>Name</key><string>Where Can I Go Without You</string>
+			<key>Artist</key><string>Keith Jarrett &#38; Charlie Haden</string>
+			<key>Album</key><string>Jasmine</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>13555392</integer>
+			<key>Total Time</key><integer>564715</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-08-28T11:21:38Z</date>
+			<key>Date Added</key><date>2010-08-30T20:19:29Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2010-10-31T18:15:40Z</date>
+			<key>Persistent ID</key><string>34A41D88B9C7CD09</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Keith%20Jarrett%20&#38;%20Charlie%20Haden/Jasmine/02%20Where%20Can%20I%20Go%20Without%20You.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>465</key>
+		<dict>
+			<key>Track ID</key><integer>465</integer>
+			<key>Name</key><string>Littel Wing</string>
+			<key>Artist</key><string>Mark Otis Selby</string>
+			<key>Album</key><string>And The Horse He Rode In On</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6294160</integer>
+			<key>Total Time</key><integer>262164</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Date Modified</key><date>2010-08-28T11:39:54Z</date>
+			<key>Date Added</key><date>2010-08-30T20:20:11Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>4435668B92E594A9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Mark%20Otis%20Selby/And%20The%20Horse%20He%20Rode%20In%20On/13%20Littel%20Wing.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>467</key>
+		<dict>
+			<key>Track ID</key><integer>467</integer>
+			<key>Name</key><string>A Whiter Shade Of Pale</string>
+			<key>Artist</key><string>Mark Otis Selby</string>
+			<key>Album</key><string>And The Horse He Rode In On</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6045902</integer>
+			<key>Total Time</key><integer>251820</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Date Modified</key><date>2010-08-28T11:39:54Z</date>
+			<key>Date Added</key><date>2010-08-30T20:20:11Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Sort Name</key><string>Whiter Shade Of Pale</string>
+			<key>Persistent ID</key><string>E8C8624172B72A33</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Mark%20Otis%20Selby/And%20The%20Horse%20He%20Rode%20In%20On/05%20A%20Whiter%20Shade%20Of%20Pale.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>469</key>
+		<dict>
+			<key>Track ID</key><integer>469</integer>
+			<key>Name</key><string>Worrisome Heart</string>
+			<key>Artist</key><string>Melody Gardot</string>
+			<key>Composer</key><string>Melody Gardot</string>
+			<key>Album</key><string>Worrisome Heart</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6312372</integer>
+			<key>Total Time</key><integer>262922</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-08-28T11:41:38Z</date>
+			<key>Date Added</key><date>2010-08-30T20:20:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3376467455</integer>
+			<key>Play Date UTC</key><date>2010-12-29T10:37:35Z</date>
+			<key>Persistent ID</key><string>D1C31824D1435864</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Melody%20Gardot/Worrisome%20Heart/01%20Worrisome%20Heart.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>763</key>
+		<dict>
+			<key>Track ID</key><integer>763</integer>
+			<key>Name</key><string>Little Wing</string>
+			<key>Artist</key><string>Santana</string>
+			<key>Composer</key><string>Jimi Hendrix</string>
+			<key>Album</key><string>Guitar Heaven: The Greatest Guitar Classics Of All Time</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>7018991</integer>
+			<key>Total Time</key><integer>292362</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-11-12T18:17:01Z</date>
+			<key>Date Added</key><date>2010-11-11T19:16:59Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3372517377</integer>
+			<key>Play Date UTC</key><date>2010-11-13T17:22:57Z</date>
+			<key>Persistent ID</key><string>6498C988A24F4A8A</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Santana/Guitar%20Heaven_%20The%20Greatest%20Guitar%20Classics%20Of%20All%20Time/11%20Little%20Wing.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>13407</key>
+		<dict>
+			<key>Track ID</key><integer>13407</integer>
+			<key>Name</key><string>Driftin' Back</string>
+			<key>Artist</key><string>Neil Young &#38; Crazy Horse</string>
+			<key>Composer</key><string>Neil Young</string>
+			<key>Album</key><string>Psychedelic Pill [Disc 1]</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio AAC</string>
+			<key>Size</key><integer>59283711</integer>
+			<key>Total Time</key><integer>1657173</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>4</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2013-01-27T08:15:15Z</date>
+			<key>Date Added</key><date>2013-01-27T08:12:58Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>E841FA51BFE45239</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1295270176</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Media/Music/Neil%20Young%20&#38;%20Crazy%20Horse/Psychedelic%20Pill%20%5BDisc%201%5D/1-01%20Driftin'%20Back.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>539</key>
+		<dict>
+			<key>Track ID</key><integer>539</integer>
+			<key>Name</key><string>Summertime</string>
+			<key>Artist</key><string>Pura Fé</string>
+			<key>Composer</key><string>Pura Fe'</string>
+			<key>Album</key><string>Hold The Rain</string>
+			<key>Genre</key><string>Folk</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>7724857</integer>
+			<key>Total Time</key><integer>321776</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2010-11-12T18:20:44Z</date>
+			<key>Date Added</key><date>2010-08-30T20:22:01Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3375616514</integer>
+			<key>Play Date UTC</key><date>2010-12-19T14:15:14Z</date>
+			<key>Persistent ID</key><string>2240C6B85C2B85A2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Pura%20Fe%CC%81/Hold%20The%20Rain/03%20Summertime.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>561</key>
+		<dict>
+			<key>Track ID</key><integer>561</integer>
+			<key>Name</key><string>Zen</string>
+			<key>Artist</key><string>Rokia Traoré</string>
+			<key>Composer</key><string>Rokia Traore</string>
+			<key>Album</key><string>Tchamanché</string>
+			<key>Genre</key><string>World</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6601402</integer>
+			<key>Total Time</key><integer>274964</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>9</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2010-08-28T12:11:52Z</date>
+			<key>Date Added</key><date>2010-08-30T20:22:20Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3369583099</integer>
+			<key>Play Date UTC</key><date>2010-10-10T18:18:19Z</date>
+			<key>Persistent ID</key><string>5305B5832D901B9E</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Rokia%20Traore%CC%81/Tchamanche%CC%81/03%20Zen.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>629</key>
+		<dict>
+			<key>Track ID</key><integer>629</integer>
+			<key>Name</key><string>Gunman</string>
+			<key>Artist</key><string>Them Crooked Vultures</string>
+			<key>Composer</key><string>Dave Grohl/John Paul Jones/Josh Homme</string>
+			<key>Album</key><string>Them Crooked Vultures</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>6916146</integer>
+			<key>Total Time</key><integer>288078</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2010-08-28T12:33:58Z</date>
+			<key>Date Added</key><date>2010-08-30T20:23:53Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Persistent ID</key><string>C38B3080D61B3957</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Them%20Crooked%20Vultures/Them%20Crooked%20Vultures/12%20Gunman.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>781</key>
+		<dict>
+			<key>Track ID</key><integer>781</integer>
+			<key>Name</key><string>A Love Like This</string>
+			<key>Artist</key><string>Charlie Haden Quartet West</string>
+			<key>Composer</key><string>Ned Washington/Victor Young</string>
+			<key>Album</key><string>Sophisticated Ladies</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>7518692</integer>
+			<key>Total Time</key><integer>313182</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2011-01-02T16:33:01Z</date>
+			<key>Date Added</key><date>2010-12-26T16:42:19Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Sort Name</key><string>Love Like This</string>
+			<key>Persistent ID</key><string>BA03210EF72D34A7</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Charlie%20Haden%20Quartet%20West/Sophisticated%20Ladies/09%20A%20Love%20Like%20This.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>783</key>
+		<dict>
+			<key>Track ID</key><integer>783</integer>
+			<key>Name</key><string>My Old Flame</string>
+			<key>Artist</key><string>Charlie Haden Quartet West</string>
+			<key>Composer</key><string>Sam Coslow/Arthur Johnston</string>
+			<key>Album</key><string>Sophisticated Ladies</string>
+			<key>Genre</key><string>Jazz</string>
+			<key>Kind</key><string>Fichier audio MPEG</string>
+			<key>Size</key><integer>8056547</integer>
+			<key>Total Time</key><integer>335595</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2010-12-26T16:43:15Z</date>
+			<key>Date Added</key><date>2010-12-26T16:42:48Z</date>
+			<key>Bit Rate</key><integer>192</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3376242925</integer>
+			<key>Play Date UTC</key><date>2010-12-26T20:15:25Z</date>
+			<key>Persistent ID</key><string>39B7CC7ECD04F261</string>
+			<key>Track Type</key><string>File</string>
+			<key>File Type</key><integer>1297106739</integer>
+			<key>Location</key><string>file://localhost/Users/yroos/Music/iTunes/iTunes%20Music/Charlie%20Haden%20Quartet%20West/Sophisticated%20Ladies/10%20My%20Old%20Flame.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Bibliothèque</string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>791</integer>
+			<key>Playlist Persistent ID</key><string>0B327059ABA9679F</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>217</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Musique</string>
+			<key>Playlist ID</key><integer>1099</integer>
+			<key>Playlist Persistent ID</key><string>0B327059ABA967A9</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>217</integer>
+				</dict>
+
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Genius</string>
+			<key>Playlist ID</key><integer>1407</integer>
+			<key>Playlist Persistent ID</key><string>239F57B5747C61B5</string>
+			<key>Distinguished Kind</key><integer>26</integer>
+			<key>All Items</key><true/>
+		</dict>
+	</array>
+</dict>
+</plist>

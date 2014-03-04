@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cave SYSTEM "./eaux.dtd">
+<cave>
+	<bouteilles>
+		<bouteille ref_eau="e1">
+			<codebarre>3274080005003</codebarre>
+			<volume>150</volume>
+		</bouteille>
+		<bouteille ref_eau="e2">
+			<codebarre>3268840001008</codebarre>
+			<volume>50</volume>
+		</bouteille>
+		<bouteille ref_eau="e2">
+			<codebarre>3546543211234</codebarre>
+			<volume>150</volume>
+		</bouteille>
+		<bouteille ref_eau="e3">
+			<codebarre>3057640117008</codebarre>
+			<volume>50</volume>
+		</bouteille>
+		<bouteille ref_eau="e3">
+			<codebarre>3421234567894</codebarre>
+			<volume>200</volume>
+		</bouteille>
+	</bouteilles>
+	<eaux>
+		<eau id="e1">
+			<nom_eau>Cristalline</nom_eau>
+			<source>
+				<nom_source>St-Cyr la Source</nom_source>
+				<dept>Loiret</dept>
+			</source>
+			<composition>
+				<taux ref_produit="cal">71</taux>
+				<taux ref_produit="mag">5,5</taux>
+				<taux ref_produit="chl">20</taux>
+				<taux ref_produit="nit">1</taux>
+			</composition>
+			<ph>7,45</ph>
+		</eau>
+		<eau id="e2">
+			<nom_eau>Cristalline</nom_eau>
+			<source>
+				<nom_source>Aurèle</nom_source>
+				<dept>Alpes Maritimes</dept>
+			</source>
+			<composition>
+				<taux ref_produit="cal">98</taux>
+				<taux ref_produit="mag">4</taux>
+				<taux ref_produit="chl">3,6</taux>
+				<taux ref_produit="nit">2</taux>
+			</composition>
+			<ph>7,4</ph>
+		</eau>
+		<eau id="e3">
+			<nom_eau>Volvic</nom_eau>
+			<source>
+				<nom_source>Volvic</nom_source>
+				<dept>Puy-de-Dôme</dept>
+			</source>
+			<composition>
+				<taux ref_produit="cal">11,5</taux>
+				<taux ref_produit="mag">8</taux>
+				<taux ref_produit="chl">13,5</taux>
+				<taux ref_produit="nit">6,3</taux>
+			</composition>
+			<ph>7</ph>
+		</eau>
+	</eaux>
+	<produits>
+		<produit id="cal">
+			<nom_produit>Calcium</nom_produit>
+			<formule>Ca+</formule>
+		</produit>
+		<produit id="mag">
+			<nom_produit>Magnésium</nom_produit>
+			<formule>Mg+</formule>
+		</produit>
+		<produit id="chl">
+			<nom_produit>Chlorure</nom_produit>
+			<formule>Cl-</formule>
+		</produit>
+		<produit id="nit">
+			<nom_produit>Nitrate</nom_produit>
+			<formule>NO3-</formule>
+		</produit>
+	</produits>
+</cave>

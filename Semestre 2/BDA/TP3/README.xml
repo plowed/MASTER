@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="README.css" type="text/css"?>
+
+<!DOCTYPE td-tp SYSTEM "README.dtd">
+<td-tp>
+	<numero-td>3</numero-td>
+	<binome>
+		VINCENT Thomas et DRUEL Damien
+	</binome>
+	<exercices>
+		<exercice numero="1">
+			<question numero="1">
+				<liste>
+					<item> les producteurs de fruits :
+						<liste>
+							<item>/descendant::producteur</item>
+							<item>//producteur</item>
+						</liste>
+					</item>
+					<item> les légumes produits en Espagne :
+						<liste>
+							<item>//descendant::legume[origine="Espagne"]/producteur</item>
+							<item>//legume[origine="Espagne"]/producteur</item>
+						</liste>
+					</item>
+					<item> les origines des clémentines de calibre 1 issues de l’agriculture biologique :
+						<liste>
+							<item>/descendant::fruit[@type="clementine" and @calibre="1" and bio]/origine</item>
+							<item>//fruit[@type="clementine" and @calibre="1" and bio]/origine</item>
+						</liste>
+					</item>
+					<item> les producteurs bretons :
+						<liste>
+							<item>/descendant::*[origine/@region="Bretagne"]/producteur</item>
+							<item>//*[origine/@region="Bretagne"]/producteur</item>
+						</liste>
+					</item>
+				</liste>
+			</question>
+		</exercice>
+		<exercice numero="2">
+			<question numero="2">
+				<liste>
+					<item> recette1.xml :
+						<liste>
+							<item>Les éléments titres des recettes : //titre</item>
+							<item>Les noms des ingrédients : //nom_ing</item>
+							<item>L’élément titre de la deuxième recette : //recette[2]/titre</item>
+							<item>La dernière étape de chaque recette : //texte/etape[last()]</item>
+							<item>Le nombre de recettes : count(//recette)</item>
+							<item>Les éléments recette qui ont strictement moins de 7 ingrédients : //recette[count(ingredients/ingredient)&lt;7]</item>
+							<item>Les titres des recettes qui ont strictement moins de 7 ingrédients : //recette[count(ingredients/ingredient)&lt;7]/titre</item>
+							<item>Les recettes qui utilisent de la farine : //recette[contains(ingredients//nom_ing,"farine")]</item>
+							<item>Les recettes de la catégorie entrée : //recette[contains(./categorie,"entrée")]</item>
+						</liste>
+					</item>
+					<item> recette2.xml :
+						<liste>
+							<item>Les éléments titres des recettes : //titre</item>
+							<item>Les noms des ingrédients : //ingredient</item>
+							<item>L’élément titre de la deuxième recette : //recette[2]/titre</item>
+							<item>La dernière étape de chaque recette : //texte/etape[last()]</item>
+							<item>Le nombre de recettes : count(//recette)</item>
+							<item>Les éléments recette qui ont strictement moins de 7 ingrédients : //recette[count(ingredients/ing-recette)&lt;7]</item>
+							<item>Les titres des recettes qui ont strictement moins de 7 ingrédients : //recette[count(ingredients/ing-recette)&lt;7]/titre</item>
+							<item>Les recettes qui utilisent de la farine : //recette[contains(ingredients//@ingredient,"farine")]</item>
+							<item>Les recettes de la catégorie entrée : //recette[contains(@categ,"entree")]</item>
+						</liste>
+					</item>
+				</liste>
+			</question>
+		</exercice>
+		<exercice numero="3">
+			<question numero="1">
+				<liste>
+					<item>Le nombre de morceaux (tracks hors PlayLists) de la bibliothèque : count(//key[.="Tracks"]/following-sibling::dict/dict)</item>
+					<item>Tous les noms d’albums : //key[.="Album"]/following-sibling::string[1]</item>
+					<item>Tous les genres de musique (Jazz, Rock, . . .) : //key[.="Genre"]/following-sibling::string[1]</item>
+					<item>Le nombre de morceaux de Jazz : count(//key[.="Genre" and ./following-sibling::string[1] = "Jazz"])</item>
+					<item>Tous les genres de musique mais en faisant en sorte de n’avoir dans le résultat qu’une seule occurrence de chaque genre : //key[.="Genre"]/following-sibling::string[position()=1 and not(../preceding-sibling::dict/key[.="Genre"]/following-sibling::string[1]=.)]</item>
+					<item>Le titre (Name) des morceaux qui ont été écoutés au moins 1 fois : //key[.="Play Count"]/following-sibling::integer[position()=1 and .>0]/parent::dict/key[.="Name"]/following-sibling::string[1]</item>
+					<item>Le titre des morceaux qui n’ont jamais été écoutés : //key[.="Play Count"]/following-sibling::integer[position()=1 and .=0]/parent::dict/key[.="Name"]/following-sibling::string[1] | //key[.="Tracks"]/following-sibling::dict/dict[not(./key[.="Play Count"])]/key[.="Name"]/following-sibling::string[1]</item>
+					<item>Le titre du (ou des) morceaux les plus anciens de la bibliothèque</item>
+				</liste>
+			</question>
+		</exercice>
+	</exercices>
+</td-tp>

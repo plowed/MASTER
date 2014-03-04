@@ -1,0 +1,8 @@
+Avant de travailler
+-git pull origin master (récupère les mises à jour du dépôt)
+
+Après avoir travaillé :
+-git add -A (ajoute les nouveaux fichiers dans le .git)
+-git commit -m ''un message d'information sur ce que vous avez fait'' (met à jour les fichiers du .git)
+-git pull origin master (récupère les dernières modifications sur le dépôt en ligne)
+-git push origin master (met à jour le dépôt en ligne)

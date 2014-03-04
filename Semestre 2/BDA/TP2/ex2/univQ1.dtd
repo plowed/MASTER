@@ -1,0 +1,10 @@
+<!ELEMENT universite (enseignant*,cours*,salle*)*>
+  <!ELEMENT enseignant (nom, matiere+)>
+  <!ELEMENT cours (code, titre)>
+  <!ELEMENT salle EMPTY>
+    <!ATTLIST salle numero CDATA #REQUIRED>
+  <!ELEMENT nom (#PCDATA) >
+  <!ELEMENT matiere (#PCDATA) >
+  <!ELEMENT titre (#PCDATA) >
+  <!ELEMENT numero (#PCDATA) >
+  <!ELEMENT code (#PCDATA) >

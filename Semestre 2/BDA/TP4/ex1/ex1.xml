@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<test xsi:noNamespaceSchemaLocation="ex1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<heure>02:30:00</heure>
+
+	<reel>
+
+		-5.0
+
+	</reel>
+
+	<chaine>okok</chaine>
+
+	<extension>jpg</extension>
+
+	<ISBN>9782744072369</ISBN>
+
+</test>

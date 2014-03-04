@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="type-item">
+
+	<xs:sequence>
+
+		<xs:element name="item" maxOccurs="unbounded">
+
+			<xs:complexType>
+
+				<xs:sequence>
+
+					<xs:element name="marque" type="xs:string"/>
+
+					<xs:element name="modele" type="xs:string"/>
+
+					<xs:element name="annee" type="xs:gYear" minOccurs="0" maxOccurs="1"/>
+
+				</xs:sequence>
+				
+				<xs:attribute name="prix" type="xs:positiveInteger"></xs:attribute>
+
+			</xs:complexType>
+
+		</xs:element>
+
+	</xs:sequence>
+
+</xs:complexType>
+
+<xs:element name="stock">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="occases" type="type-item" />
+			<xs:element name="neufs" type="type-item" />
+		</xs:sequence>
+		<xs:attribute name="nom" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

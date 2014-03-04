@@ -1,0 +1,33 @@
+<!ELEMENT maisons (maison*)>
+<!ELEMENT maison (RDC?,étage*)>
+	<!ATTLIST maison id CDATA #REQUIRED>
+<!ELEMENT RDC (cuisine|WC|séjour|bureau|garage|chambre|salledeBain)+>
+<!ELEMENT étage (terrasse|chambre|salledeBain|mirador|cuisine|WC|séjour|bureau)+>
+<!ELEMENT cuisine (#PCDATA)>
+	<!ATTLIST cuisine surface-m2 CDATA #IMPLIED>
+	<!ATTLIST cuisine fenetre CDATA #IMPLIED>
+<!ELEMENT WC (#PCDATA)>
+	<!ATTLIST WC surface-m2 CDATA #IMPLIED>
+	<!ATTLIST WC fenetre CDATA #IMPLIED>
+<!ELEMENT séjour (#PCDATA)>
+	<!ATTLIST séjour surface-m2 CDATA #IMPLIED>
+	<!ATTLIST séjour fenetre CDATA #IMPLIED>
+<!ELEMENT bureau (#PCDATA)>
+	<!ATTLIST bureau surface-m2 CDATA #IMPLIED>
+	<!ATTLIST bureau fenetre CDATA #IMPLIED>
+<!ELEMENT garage EMPTY>
+	<!ATTLIST garage surface-m2 CDATA #IMPLIED>
+<!ELEMENT terrasse EMPTY>
+	<!ATTLIST terrasse surface-m2 CDATA #IMPLIED>
+<!ELEMENT chambre (#PCDATA|alcove|EMPTY)*>
+	<!ATTLIST chambre surface-m2 CDATA #IMPLIED>
+	<!ATTLIST chambre fenetre CDATA #IMPLIED>
+<!ELEMENT salledeBain (#PCDATA)>
+	<!ATTLIST salledeBain surface-m2 CDATA #IMPLIED>
+	<!ATTLIST salledeBain fenetre CDATA #IMPLIED>
+<!ELEMENT alcove EMPTY>
+	<!ATTLIST alcove surface-m2 CDATA #IMPLIED>
+<!ELEMENT mirador (#PCDATA)>
+	<!ATTLIST mirador surface-m2 CDATA #IMPLIED>
+
+

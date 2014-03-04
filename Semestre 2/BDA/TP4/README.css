@@ -1,0 +1,49 @@
+exercices,numero-td,exercice,question,liste,nouvelleLigne,binome{
+	display:block;
+}
+exercice{
+	margin-bottom:20px;
+}
+question{
+	position:relative;
+	margin-top:10px;
+	padding:30px 0px 0px 40px;
+}
+liste{
+	padding-left:30px;
+}
+item{
+	display:list-item;
+}
+numero-td{
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+}
+binome{
+	text-align:center;
+	font-size:15px;
+}
+exercices{
+	margin-top:30px;
+}
+binome:before{
+	content:"Par ";
+}
+numero-td:before{
+	content:"TD/TP "
+}
+exercice:before{
+	content:"Exercice " attr(numero) ")";
+	font-weight:bold;
+}
+question:before{
+	position:absolute;
+	top:0px;
+	left:20px;
+	font-weight:bold;
+	content:"Question " attr(numero) ")";
+}
+nouvelleLigne{
+	margin:10px;
+}

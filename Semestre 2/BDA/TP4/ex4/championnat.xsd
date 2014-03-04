@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="type-club">
+
+	<xs:sequence>
+
+		<xs:element name="nom" type="xs:string"></xs:element>
+
+		<xs:element name="ville" type="xs:string"></xs:element>
+		
+		<xs:element name="entraineurs" type="type-entraineurs"></xs:element>
+		
+		<xs:element name="joueurs" type="type-joueurs"></xs:element>
+
+	</xs:sequence>
+
+	<xs:attribute name="nom" type="xs:ID" use="required"></xs:attribute>
+
+</xs:complexType>
+
+<xs:complexType name="type-entraineurs">
+	<xs:sequence>
+		<xs:element name="entraineur" type="type-personne" maxOccurs="unbounded"></xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="type-joueurs">
+	<xs:sequence>
+		<xs:element name="joueur" type="type-personne" maxOccurs="unbounded"></xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="type-clubs">
+
+	<xs:sequence>
+
+		<xs:element name="club" type="type-club" minOccurs="20" maxOccurs="20"/>
+
+	</xs:sequence>
+
+</xs:complexType>
+
+
+<xs:simpleType name="type-score">
+
+	<xs:restriction base="xs:string">
+
+		<xs:pattern value="\d+ \d+"></xs:pattern>
+
+	</xs:restriction>
+
+</xs:simpleType>
+
+<xs:complexType name="type-club-rencontre">
+	<xs:attribute name="club" type="xs:IDREF" use="required"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="type-rencontre">
+	<xs:sequence>
+		<xs:element name="domicile" type="type-club-rencontre"/>
+		<xs:element name="exterieur" type="type-club-rencontre"/>
+		<xs:element name="score" type="type-score"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="type-num-journee">
+	<xs:restriction base="xs:nonNegativeInteger">
+		<xs:minInclusive value="1"></xs:minInclusive>
+		<xs:maxExclusive value="38"></xs:maxExclusive>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="type-journee">
+	<xs:sequence>
+		<xs:element name="rencontre" type="type-rencontre" minOccurs="10" maxOccurs="10"></xs:element>
+	</xs:sequence>
+	<xs:attribute name="num" type="type-num-journee"></xs:attribute>
+	<xs:attribute name="date" type="xs:date" use="optional"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="type-journees">
+	<xs:sequence>
+		<xs:element name="journee" type="type-journee" maxOccurs="unbounded"></xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="type-personne">
+	<xs:sequence>
+		<xs:element name="prenom" type="xs:string"></xs:element>
+		<xs:element name="nom" type="xs:string"></xs:element>
+		<xs:element name="dateArrive" type="xs:date" minOccurs="1" maxOccurs="1"></xs:element>
+		<xs:element name="dateDepard" type="xs:date" minOccurs="0" maxOccurs="1"></xs:element>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="championnat">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="clubs" type="type-clubs"></xs:element>
+			<xs:element name="journees" type="type-journees"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

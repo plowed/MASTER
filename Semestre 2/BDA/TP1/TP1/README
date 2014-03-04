@@ -1,0 +1,14 @@
+Rendu du TP1 de BDA pour le binome VINCENT Thomas et DRUEL Damien
+
+Exercice 3
+
+Q1) Pour lancer le programme il faut effecuter la commande suivante:
+	java SizeHomeHandler maisons.xml
+
+Q2) Pour lancer le programme il faut effecuter la commande suivante:
+	java PieceNameHandler maisons.xml
+
+Exercice 4
+
+Q3) Pour lancer le programme il faut effecuter la commande suivante:
+	java DureeTrajet ex4.xml

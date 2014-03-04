@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Jan 16 13:46:33 CET 2014 -->
+
+<eaux>
+	<eau marque="Cristaline">
+		<source nom="St-Cyr la Source">
+			<bouteilles>
+				<bouteille valeur="150" unite="cl">
+					<codeBarre>
+						3274080005003
+					</codeBarre>
+				</bouteille>
+			</bouteilles>
+			<ions type="positif">
+				<calcium>
+					<contenance unite="mg/L">
+					71
+					</contenance>
+				</calcium>
+				<magnesium>
+					<contenance unite="mg/L">
+						5.5
+					</contenance>
+				</magnesium>
+			</ions>
+			<ions type="negatif">
+				<chlorures>
+					<contenance unite="mg/L">
+						20
+					</contenance>
+				</chlorures>
+				<nitrates>
+					<contenance unite="mg/L">
+						1
+					</contenance>
+				</nitrates>
+			</ions>
+			<departement>
+				Loiret
+			</departement>
+			<ph>
+				7.45
+			</ph>
+		</source>
+		<source nom="Aurèle">
+			<bouteilles>
+				<bouteille valeur="50" unite="cl">
+					<codeBarre>
+						3268840001008
+					</codeBarre>
+				</bouteille>
+			</bouteilles>
+			<ions type="positif">
+				<calcium>
+					<contenance unite="mg/L">
+						98
+					</contenance>
+				</calcium>
+				<magnesium>
+					<contenance unite="mg/L">
+						4
+					</contenance>
+				</magnesium>
+			</ions>
+			<ions type="negatif">
+				<chlorures>
+					<contenance unite="mg/L">
+						3.6
+					</contenance>
+				</chlorures>
+				<nitrates>
+					<contenance unite="mg/L">
+						2
+					</contenance>
+				</nitrates>
+			</ions>
+			<departement>
+				Alpes Maritimes
+			</departement>
+			<ph>
+				7.4
+			</ph>
+		</source>
+	</eau>
+	<eau marque="Volvic">
+		<source nom="Volvic">
+			<bouteilles>
+				<bouteille>
+					<codeBarre>
+						3057640117008
+					</codeBarre>
+				</bouteille>
+			</bouteilles>
+			<ions type="positif">
+				<calcium>
+					<contenance unite="mg/L">
+					11.5
+					</contenance>
+				</calcium>
+				<magnesium>
+					<contenance unite="mg/L">
+						8
+					</contenance>
+				</magnesium>
+			</ions>
+			<ions type="negatif">
+				<chlorures>
+					<contenance unite="mg/L">
+						13.5
+					</contenance>
+				</chlorures>
+				<nitrates>
+					<contenance unite="mg/L">
+						6.3
+					</contenance>
+				</nitrates>
+			</ions>
+			<departement>
+				Puy-de-Dôme
+			</departement>
+			<ph>
+				7
+			</ph>
+		</source>
+	</eau>
+</eaux>

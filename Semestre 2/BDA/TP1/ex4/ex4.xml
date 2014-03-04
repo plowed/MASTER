@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="ex4.css" type="text/css"?>
+<itineraire>
+	<depart>
+		<ville>Seclin</ville>
+		<lieu>Centre hospitalier</lieu>
+	</depart>
+	<arrive>
+		<ville>Roubaix</ville>
+		<lieu>Avenue Motte</lieu>
+	</arrive>
+	<date>
+		<jourSemaine>Mardi</jourSemaine>
+		<jour>22</jour>
+		<mois>janvier</mois>
+		<heure>12</heure>
+		<minute>35</minute>
+	</date>
+	<modeTransport>
+		<moyenTransport>Métro</moyenTransport>
+		<moyenTransport>Tramway</moyenTransport>
+		<moyenTransport>Bus</moyenTransport>
+		<moyenTransport>Car</moyenTransport>
+	</modeTransport>
+	<preference>Arriver le plus rapidement</preference>
+	<vitesseAPied>Normal</vitesseAPied>
+	<tempsParcours>
+		<heure>1</heure>
+		<minute>27</minute>
+	</tempsParcours>
+	<parcours>
+		<trajet partie="1">
+			<depart>
+				<ville>Seclin</ville>
+				<lieu>Centre hospitalier</lieu>
+			</depart>
+			<arrive>
+				<ville>Seclin</ville>
+				<lieu>Hotel de Ville</lieu>
+			</arrive>
+			<moyenTransport>
+				marche
+			</moyenTransport>
+			<duree unite="min">13</duree>
+		</trajet>
+		<trajet partie="2">
+			<depart>
+				<ville>Seclin</ville>
+				<lieu>Hotel de Ville</lieu>
+			</depart>
+			<arrive>
+				<ville>Lille</ville>
+				<lieu>CHR B Calmette</lieu>
+			</arrive>
+			<direction>
+				<ville>Lille</ville>
+				<lieu>Porte des Postes</lieu>
+			</direction>
+			<moyenTransport>
+				<bus ligne="52"/>
+			</moyenTransport>
+			<duree unite="min">23</duree>
+		</trajet>
+		<correspondance partie="3">
+			<duree unite="min">4</duree>
+		</correspondance>
+		<trajet partie="4">
+			<depart>
+				<ville>Lille</ville>
+				<lieu>CHR B Calmette</lieu>
+			</depart>
+			<arrive>
+				<ville>Lille</ville>
+				<lieu>Porte des Postes</lieu>
+			</arrive>
+			<direction>
+				<ville>Villeneuve d'Ascq</ville>
+				<lieu>4 Cantons Grand Stade</lieu>
+			</direction>
+			<moyenTransport>
+				<metro ligne="1"/>
+			</moyenTransport>
+			<duree unite="min">3</duree>
+		</trajet>
+		<correspondance partie="5">
+			<duree unite="min">6</duree>
+		</correspondance>
+		<trajet partie="6">
+			<depart>
+				<ville>Lille</ville>
+				<lieu>Porte des Postes</lieu>
+			</depart>
+			<arrive>
+				<ville>Roubaix</ville>
+				<lieu>Epeule Montesquieu</lieu>
+			</arrive>
+			<direction>
+				<ville>Tourcoing</ville>
+				<lieu>CH Dron</lieu>
+			</direction>
+			<moyenTransport>
+				<metro ligne="2"/>
+			</moyenTransport>
+			<duree unite="min">25</duree>
+		</trajet>
+		<correspondance partie="7">
+			<duree unite="min">4</duree>
+		</correspondance>
+		<trajet partie="8">
+			<depart>
+				<ville>Roubaix</ville>
+				<lieu>Epeule Montesquieu</lieu>
+			</depart>
+			<arrive>
+				<ville>Roubaix</ville>
+				<lieu>Avenue Motte</lieu>
+			</arrive>
+			<direction>
+				<ville>Roubaix</ville>
+				<lieu>fraternité</lieu>
+			</direction>
+			<moyenTransport>
+				<bus ligne="25"/>
+			</moyenTransport>
+			<duree unite="min">9</duree>
+		</trajet>
+	</parcours>
+</itineraire>

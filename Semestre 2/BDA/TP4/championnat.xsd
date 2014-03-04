@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- les clubs -->
+  
+  <!-- type personne, pour un entraineur ou un joueur -->
+  <xsd:complexType name="TypePersonne">
+    <xsd:sequence>
+      <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="prenom" type="xsd:string"/>
+      <xsd:element name="debut" type="xsd:date" minOccurs="0"/>
+      <xsd:element name="fin" type="xsd:date" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <!-- Le type d'un club -->
+  <xsd:complexType name="TypeClub">
+    <xsd:sequence>
+      <!-- le nom du club -->
+      <xsd:element name="nom" type="xsd:string"/>
+      <xsd:element name="ville" type="xsd:string"/>
+      <!-- les entraineurs -->
+      <xsd:element name="entraineurs" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="entraineur" type="TypePersonne" minOccurs="1" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <!-- les joueurs -->
+      <xsd:element name="joueurs" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="joueur" type="TypePersonne" minOccurs="1" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <!-- identifiant de club : souvent acronyme -->
+    <xsd:attribute name="id" type="xsd:ID"/>
+  </xsd:complexType>
+  
+  <!-- l'élément clubs contient une séquence d'élément club -->
+  <xsd:element name="clubs">
+    <xsd:complexType>
+      <xsd:sequence>
+       <xsd:element name="club" type="TypeClub" minOccurs="0" maxOccurs="unbounded" />
+     </xsd:sequence>
+   </xsd:complexType>
+   <!-- l'attribut id est une clef pour les clubs -->
+   <xsd:key name="clefClub">
+     <xsd:selector xpath="club"/>
+     <xsd:field xpath="@id"/>
+   </xsd:key>
+  </xsd:element>
+  
+  <!-- Les journées -->
+  
+  <!-- un type pour une rencontre -->
+  <xsd:complexType name="TypeRencontre">
+    <xsd:sequence>
+      <xsd:element name="clubReceveur" type="xsd:IDREF"/>
+      <xsd:element name="clubInvité" type="xsd:IDREF"/>
+      <xsd:element name="score">
+        <xsd:simpleType>
+          <xsd:list itemType="xsd:nonNegativeInteger"/>
+        </xsd:simpleType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <!-- un numéro de journée est un entier entre 1 et 38 -->
+  <xsd:simpleType name="TypeNumJournée">
+    <xsd:restriction base="xsd:nonNegativeInteger">
+      <xsd:minInclusive value="1"/>
+      <xsd:maxInclusive value="38"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <!-- type pour une journée : séquence de rencontres, et attribut numéro de la journée -->
+  
+  <xsd:complexType name="TypeJournée">
+    <xsd:sequence>
+      <xsd:element name="date" type="xsd:date"/>
+      <xsd:element name="rencontre" type="TypeRencontre" minOccurs="1" maxOccurs="10" />
+    </xsd:sequence>
+    <xsd:attribute name="num" type="TypeNumJournée"/>
+  </xsd:complexType>
+  
+  <!-- pour finir, l'élément journées contient une séquence d'éléments journée -->
+  <xsd:element name="journées">
+    <xsd:complexType>
+      <xsd:sequence>
+       <xsd:element name="journée" type="TypeJournée" minOccurs="0" maxOccurs="38" />
+     </xsd:sequence>
+   </xsd:complexType>
+   <!-- l'attribut num de journée est une clef primaire pour les journées -->
+   <xsd:key name="clefJournée">
+     <xsd:selector xpath="journée"/>
+     <xsd:field xpath="@num"/>
+   </xsd:key>
+  </xsd:element>
+  
+  <!-- L'élément racine, et les clefs étrangères -->
+  <xsd:element name="championnat">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="clubs"/>
+        <xsd:element ref="journées"/>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:keyref name="refClub1" refer="clefClub">
+      <xsd:selector xpath="journées/journée/rencontre"/>
+      <xsd:field xpath="clubReceveur"/>
+    </xsd:keyref>
+    <xsd:keyref name="refClub2" refer="clefClub">
+      <xsd:selector xpath="journées/journée/rencontre"/>
+      <xsd:field xpath="clubInvité"/>
+    </xsd:keyref>
+  </xsd:element>
+</xsd:schema>

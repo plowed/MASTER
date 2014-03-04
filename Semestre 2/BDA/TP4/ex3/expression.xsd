@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="type-val">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="-"></xs:enumeration>
+		<xs:enumeration value="+"></xs:enumeration>
+		<xs:enumeration value="/"></xs:enumeration>
+		<xs:enumeration value="*"></xs:enumeration>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="op">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:group ref="operande"></xs:group>
+			<xs:group ref="operande"></xs:group>
+		</xs:sequence>
+		<xs:attribute name="val" type="type-val" use="required"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+
+<xs:group name="operande">
+
+	<xs:choice>
+
+		<xs:element name="var" type="xs:string"/>
+
+		<xs:element name="cons" type="xs:integer"/>
+
+		<xs:element ref="op"/>
+	
+</xs:choice>
+</xs:group>
+
+
+<xs:element name="expr">
+
+	<xs:complexType>
+
+		<xs:sequence>
+
+			<xs:element ref="op"></xs:element>
+
+		</xs:sequence>
+
+	</xs:complexType>
+
+</xs:element>
+
+</xs:schema>

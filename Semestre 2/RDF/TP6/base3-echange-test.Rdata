@@ -1,0 +1,7 @@
+source("base3-echange.Rdata");
+
+#test
+couleur<-rep('red',n_test);
+couleur[classe_test==2]='blue';
+couleur[classe_test==3]='green';
+plot(x_test, col = couleur);

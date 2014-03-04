@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="README.css" type="text/css"?>
+
+<!DOCTYPE td-tp SYSTEM "README.dtd">
+<td-tp>
+	<numero-td>2</numero-td>
+	<binome>
+		VINCENT Thomas et DRUEL Damien
+	</binome>
+	<exercices>
+		<exercice numero="1">
+			<question numero="1">
+				<liste>
+					<item>d1.dtd :
+						<liste>
+							<item>a1.xml est validé par d1.dtd</item>
+							<item>a2.xml est validé par d1.dtd</item>
+							<item>a3.xml n'est validé par d1.dtd car il n'y as pas une balise F qui suit une balise B ou D</item>
+						</liste>
+					</item>
+					<item>d2.dtd :
+						<liste>
+							<item>a1.xml n'est pas validé par d2.dtd car il n'y a pas de balise D qui suit la balise B</item>
+							<item>a2.xml est validé par d2.dtd</item>
+							<item>a3.xml est validé par d2.dtd</item>
+						</liste>
+					</item>
+					<item>d3.dtd :
+						<liste>
+							<item>a1.xml n'est pas validé par d3.dtd car il n'y a pas au moin une balise D qui suit la balise B</item>
+							<item>a2.xml est validé par d3.dtd</item>
+							<item>a3.xml n'est pas validé par d3.dtd car il n'y a pas une succession de balise B puis une succession de balise D mais une succession de balise B, D</item>
+						</liste>
+					</item>
+				</liste>
+			</question>
+		</exercice>
+		<exercice numero="2">
+			<question numero="1">
+				Le fichier univ.xml n'est pas valide car d'aprés le fichier univ.dtd la balise salle n'as aucun contenu or ici elle contient une balise contenant le numero de salle. De plus dans le fichier univ.dtd la racine est défini sans majuscule alors qu'elle en comporte dans le fichier univ.xml et une des balise code n'est pas bien fermé.
+				<nouvelleLigne/>
+				cf : fichier ex2/univQ1.xml
+			</question>
+			<question numero="2">
+				Pour prendre en compte les informations, il a fallu rajouter des balises permettant de regrouper les enseignants, les étudiants, les matiéres, les cours et les salles. Les cours, les matiéres et les salles possédent des identifiants. Les enseignants, les étudiants et les cours font références à ces identifiants. Mais un défaut du DTD est que l'on ne peut pas par exemple définir que l'attribut id_salle de la balise cours fait référence à l'attribut id de la balise salle. On peut donc, par exemple, y faire référence à l'attribut id_matiere de la balise matiere.
+				<nouvelleLigne/>
+				cf : fichier ex2/univQ2.xml et ex2/univ.dtd
+			</question>
+		</exercice>
+		<exercice numero="3">
+			<question numero="1">
+				cf : fichier ex3/transpole.xml et ex3/transpole.dtd
+			</question>
+			<question numero="2">
+				Lors de la création du DTD on remarque qu'un certain nombre d'information pourrai être regrouper, par exemple l'attribut surface-m2 qui se retrouve dans plusieurs. Mais aucun regroupement n'est possible avec le DTD ce qui en est une limite.
+				<nouvelleLigne/>
+				cf : fichier ex3/maisons.xml et ex3/maisons.dtd
+			</question>
+		</exercice>
+		<exercice numero="4">
+			<question numero="1">
+				cf : fichier ex4/famille.dtd
+			</question>
+		</exercice>
+	</exercices>
+</td-tp>

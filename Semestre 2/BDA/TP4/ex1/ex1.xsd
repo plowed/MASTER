@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="test">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="heure">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:time">
+							<xsd:minInclusive value="02:30:00"/>
+							<xsd:maxInclusive value="16:50:00"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="reel">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:decimal">
+							<xsd:fractionDigits value="1"/>
+							<xsd:minInclusive value="-3476.4"/>
+							<xsd:maxInclusive value="5.0"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="chaine">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:length value="4"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="extension">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:token">
+							<xsd:enumeration value="jpg"/>
+							<xsd:enumeration value="gif"/>
+							<xsd:enumeration value="png"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+				<xsd:element name="ISBN">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:pattern value="\d{13}"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

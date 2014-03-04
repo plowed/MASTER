@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE universite SYSTEM "univ.dtd">
+
+
+<Universite>
+	<enseignant>
+		<nom>Toto</nom>
+		<matiere>bases de données</matiere>
+	</enseignant>
+	<cours>
+		<code>LI345<code>
+		<titre>bases de données et sites Web</titre>
+	</cours>
+	<enseignant>
+		<nom>Titi</nom>
+		<matiere>langage</matiere>
+	</enseignant>
+	<cours>
+		<code>LI349</code>
+		<titre>compilation</titre>
+	</cours>
+	<salle>
+		<numero>Amphi B1</numero>
+	</salle>
+	<salle>
+		<numero>Amphi B2</numero>
+	</salle>
+</Universite>

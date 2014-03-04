@@ -1,0 +1,29 @@
+<!ELEMENT itineraire (depart,arrive,date,modeTransport,preference,vitesseAPied,tempsParcours,parcours)>
+<!ELEMENT depart (ville,lieu)>
+<!ELEMENT arrive (ville,lieu)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT date (jourSemaine,jour,mois,heure,minute)>
+<!ELEMENT jourSemaine (#PCDATA)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT heure (#PCDATA)>
+<!ELEMENT minute (#PCDATA)>
+<!ELEMENT modeTransport (moyenTransport+)>
+<!ELEMENT moyenTransport (#PCDATA|marche|bus|metro)*>
+<!ELEMENT preference (#PCDATA)>
+<!ELEMENT vitesseAPied (#PCDATA)>
+<!ELEMENT tempsParcours (heure,minute)>
+<!ELEMENT parcours (trajet|correspondance)+>
+<!ELEMENT trajet (depart,arrive,direction?,moyenTransport,duree)>
+<!ELEMENT correspondance (duree)>
+<!ELEMENT direction (ville,lieu)>
+<!ELEMENT duree (#PCDATA)>
+<!ELEMENT marche EMPTY>
+<!ELEMENT bus EMPTY>
+<!ELEMENT metro EMPTY>
+<!ATTLIST bus ligne CDATA #REQUIRED>
+<!ATTLIST metro ligne CDATA #REQUIRED>
+<!ATTLIST correspondance partie CDATA #IMPLIED>
+<!ATTLIST trajet partie CDATA #IMPLIED>
+<!ATTLIST duree unite CDATA #REQUIRED>

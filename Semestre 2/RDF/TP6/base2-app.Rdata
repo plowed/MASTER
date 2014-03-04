@@ -1,0 +1,7 @@
+source("base2.Rdata");
+
+#app
+couleur<-rep('red',n_app);
+couleur[classe_app==2]='blue';
+couleur[classe_app==3]='green';
+plot(x_app, col = couleur);

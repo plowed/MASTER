@@ -1,5 +1,8 @@
 damien druel
 
+=> exemple d'execution du jar
+java -jar tp_druel.jar "/"
+
 
 - port par défaut : 1025 -> 1125 (si les ports sont pris, le port choisis est affiché dans la console)
 - Racine a passer en argument, par défault "/" dans l'executable

@@ -1,0 +1,15 @@
+http://lmgtfy.com/?q=comment+j%27ai+expliqu%C3%A9+REST+%C3%A0+ma+femme
+
+Serveur FTP => pure-ftpd							
+
+"/ftp/list/{path}"									"ftp/store/{path}"
+@Path("ftp/list")									@Path("ftp/stor")
+class RessourceList{								class ResourceStor{ }
+	@Path("path:.*")
+	@GET
+	@Produces("test/html")
+	public Response listFiles(..){}	
+	
+	
+	exemple de base : resources/greeting
+	

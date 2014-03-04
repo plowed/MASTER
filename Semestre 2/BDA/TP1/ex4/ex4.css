@@ -1,0 +1,51 @@
+depart,arrive,duree,modeTransport,parcours,vitesseAPied,tempsParcours{
+	display:block;
+}
+parcours>*{
+	display:block;
+	margin:25px;
+	border:1px solid black;
+}
+parcours{
+	margin-top:50px;
+}
+modeTransport moyenTransport{
+	display:list-item;
+	margin-left: 30px;
+}
+lieu:before{
+	content: " - ";
+}
+depart:before{
+	content:"depart : ";
+}
+arrive:before{
+	content:"arrive : ";
+}
+direction:before{
+	content:"direction : ";
+}
+correspondance:before{
+	content:"correspondance : ";
+}
+parcours duree:after{
+	content:attr(unite);
+}
+parcours duree:before{
+	content:"duree : ";
+}
+heure:after{
+	content:"h";
+}
+modeTransport:before{
+	content:"Mode de transport : ";
+}
+parcours:before{
+	content:"Parcours : ";
+}
+vitesseAPied:before{
+	content:"Vitesse à pied : ";
+}
+tempsParcours:before{
+	content:"Temps de parcours : ";
+}

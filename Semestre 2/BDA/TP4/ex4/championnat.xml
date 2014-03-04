@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<championnat xsi:noNamespaceSchemaLocation="championnat.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+	<clubs>
+		<club nom="MHSC">
+			<nom>Montpellier Hérault SC</nom>
+			<ville>Montpellier</ville>
+		</club>
+		<club nom="PSG">
+			<nom>Paris Saint-Germain</nom>
+			<ville>Paris</ville>
+		</club>
+		<club nom="Bdx">
+			<nom>Girondins de Bordeaux</nom>
+			<ville>Bordeaux</ville>
+		</club>
+		<club nom="ASM">
+			<nom>AS Monaco FC</nom>
+			<ville>Monaco</ville>
+		</club>
+		<club nom="ETG">
+			<nom>Evian TG FC</nom>
+			<ville>Evian</ville>
+		</club>
+		<club nom="Soc">
+			<nom>FC Sochaux-Montbéliard</nom>
+			<ville>Sochaux</ville>
+		</club>
+		<club nom="LOSC">
+			<nom>LOSC Lille</nom>
+			<ville>Lille</ville>
+		</club>
+		<club nom="Lor">
+			<nom>Lorient</nom>
+			<ville>Lorient	</ville>
+		</club>
+		<club nom="OL">
+			<nom>Olympique Lyonnais</nom>
+			<ville>Lyon</ville>
+		</club>
+		<club nom="OGCN">
+			<nom>OGC Nice</nom>
+			<ville>Nice</ville>
+		</club>
+		<club nom="Nan">
+			<nom>FC Nantes</nom>
+			<ville>Nantes</ville>
+		</club>
+		<club nom="SCB">
+			<nom>SC Bastia</nom>
+			<ville>Bastia</ville>
+		</club>
+		<club nom="SRFC">
+			<nom>Stade Rennais FC</nom>
+			<ville>Rennes</ville>
+		</club>
+		<club nom="SdR">
+			<nom>Stade de Reims</nom>
+			<ville>Reims</ville>
+		</club>
+		<club nom="Val">
+			<nom>Valenciennes FC</nom>
+			<ville>Valenciennes</ville>
+		</club>
+		<club nom="Tou">
+			<nom>Toulouse FC</nom>
+			<ville>Toulouse</ville>
+		</club>
+		<club nom="Aja">
+			<nom>AC Ajaccio</nom>
+			<ville>Ajaccio</ville>
+		</club>
+		<club nom="ASSE">
+			<nom>AS Saint-Etienne</nom>
+			<ville>Saint-Etienne</ville>
+		</club>
+		<club nom="EAG">
+			<nom>EA Guingamp</nom>
+			<ville>Guingamp</ville>
+		</club>
+		<club nom="OM">
+			<nom>Olympique de Marseille</nom>
+			<ville>Marseille</ville>
+		</club>
+	</clubs>
+	<journees>
+		<journee num="1" date="2013-08-10">
+			<rencontre>
+				<domicile club="MHSC"/>
+				<exterieur club="PSG"/>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Bdx"/>
+				<exterieur club="ASM"/>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="ETG"/>
+				<exterieur club="Soc"/>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="LOSC"/>
+				<exterieur club="Lor"/>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="OL"/>
+				<exterieur club="OGCN"/>
+				<score>4 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Nan"/>
+				<exterieur club="SCB"/>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="SRFC"/>
+				<exterieur club="SdR"/>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Val"/>
+				<exterieur club="Tou"/>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Aja"/>
+				<exterieur club="ASSE"/>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="EAG"/>
+				<exterieur club="OM"/>
+				<score>1 3</score>
+			</rencontre>
+		</journee>
+		<journee num="20" date="2014-01-11">
+			<rencontre>
+				<domicile club="MHSC"/>
+				<exterieur club="ASM"/>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Aja"/>
+				<exterieur club="PSG"/>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Bdx"/>
+				<exterieur club="Tou"/>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="EAG"/>
+				<exterieur club="ASSE"/>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="OL"/>
+				<exterieur club="Soc"/>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="SRFC"/>
+				<exterieur club="OGCN"/>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Val"/>
+				<exterieur club="SCB"/>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="Nan"/>
+				<exterieur club="Lor"/>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="ETG"/>
+				<exterieur club="OM"/>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<domicile club="LOSC"/>
+				<exterieur club="SdR"/>
+				<score>1 2</score>
+			</rencontre>
+		</journee>
+	</journees>
+</championnat>
+
+

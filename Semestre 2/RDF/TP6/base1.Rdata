@@ -1,0 +1,6 @@
+
+# Chargement des fonctions externes
+library ("EBImage")
+library("MASS")
+library("lattice")
+donnees <- (load(file='fichiers-utiles/simul1.Rdata'));

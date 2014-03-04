@@ -20,6 +20,7 @@ public class Serveur {
 		Tools.userPass.put("damien", "a");
 		Tools.userPass.put("admin", "password");
 		Tools.userPass.put("a", "a");
+		Tools.userPass.put("anonymous", "");
 
 		//lance un serveur ftp sur un port entre 1025 et 1125
 		for(int i=Tools.portDepart; i<Tools.portFin; i++){

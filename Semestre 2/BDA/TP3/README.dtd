@@ -1,0 +1,11 @@
+<!ELEMENT td-tp (numero-td,binome,exercices)>
+	<!ELEMENT numero-td (#PCDATA)>
+	<!ELEMENT binome (#PCDATA)>
+	<!ELEMENT exercices (exercice+)>
+		<!ELEMENT exercice (question+)>
+			<!ATTLIST exercice numero CDATA #REQUIRED>
+			<!ELEMENT question (#PCDATA|liste|nouvelleLigne)*>
+				<!ATTLIST question numero CDATA #REQUIRED>
+				<!ELEMENT liste (item+)>
+					<!ELEMENT item (#PCDATA|liste|nouvelleLigne)*>
+				<!ELEMENT nouvelleLigne EMPTY>

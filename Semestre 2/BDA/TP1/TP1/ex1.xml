@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Jan 16 13:39:31 CET 2014 -->
+
+<lespays>
+	<pays name="France">
+		<capital>
+			Paris
+		</capital>
+		<population annee="2007">
+			64 102 000
+		</population>
+	</pays>
+	<pays name="Italie">
+		<capital>
+			Rome
+		</capital>
+		<population annee="2006">
+			58 133 509
+		</population>
+	</pays>
+	<pays name="Espagne">
+		<capital>
+			Madrid
+		</capital>
+		<population  annee="2006">
+			44 708 964
+		</population>
+	</pays>
+</lespays>

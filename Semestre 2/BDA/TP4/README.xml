@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="README.css" type="text/css"?>
+
+<!DOCTYPE td-tp SYSTEM "README.dtd">
+<td-tp>
+	<numero-td>4</numero-td>
+	<binome>
+		VINCENT Thomas et DRUEL Damien
+	</binome>
+	<exercices>
+		<exercice numero="1">
+			<question numero="1">
+				
+			</question>
+		</exercice>
+		
+	</exercices>
+</td-tp>

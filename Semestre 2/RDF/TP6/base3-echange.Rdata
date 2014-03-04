@@ -1,0 +1,20 @@
+
+# Chargement des fonctions externes
+library ("EBImage")
+library("MASS")
+library("lattice")
+
+donnees <- (load(file='fichiers-utiles/Iris_x2_x4.Rdata'));
+
+##### echange des donnees
+classe_tmp <- classe_app;
+classe_app <- classe_test;
+classe_test <- classe_tmp;
+
+n_tmp <- n_app;
+n_app <- n_test;
+n_test <- n_tmp;
+
+x_tmp <- x_app;
+x_app <- x_test;
+x_test <- x_tmp;

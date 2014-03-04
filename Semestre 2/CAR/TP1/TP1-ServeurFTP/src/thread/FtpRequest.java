@@ -37,6 +37,7 @@ public class FtpRequest extends Thread{
 	private String cheminCourant = Tools.path;
 
 	private String user=null;
+	boolean isAnonyme = false;
 
 
 	/**
@@ -91,7 +92,6 @@ public class FtpRequest extends Thread{
 
 		switch(requeteSplit[0]){
 
-
 		case "USER":
 			retour=this.processUSER(requeteSplit[1]);
 			break;
@@ -125,11 +125,11 @@ public class FtpRequest extends Thread{
 			break;
 
 		case "RETR":
-			retour=this.processRETR(requeteSplit[1]);
+			if(!this.isAnonyme)retour=this.processRETR(requeteSplit[1]);
 			break;
 
 		case "STOR":
-			retour=this.processSTOR(requeteSplit[1]);
+			if(!this.isAnonyme)retour=this.processSTOR(requeteSplit[1]);
 			break;
 
 		case "QUIT":
@@ -161,6 +161,8 @@ public class FtpRequest extends Thread{
 			}else{
 				user = parametre;
 				this.etat.sendMessageOK(client);
+				if(user.equals("anonymous"))
+					this.isAnonyme=true;
 			}
 			return true;
 		}
@@ -178,8 +180,13 @@ public class FtpRequest extends Thread{
 			this.etat=Etat.PASS;
 
 			if(!Tools.paramOK(password) || !Tools.isRightPassword(user, password)){
-				this.etat.sendMessageError(client); 
-				this.etat=Etat.USER;
+				if(!this.isAnonyme){
+					this.etat.sendMessageError(client); 
+					this.etat=Etat.USER;
+				}else{
+					this.etat.sendMessageOK(client);
+					this.etat=Etat.IDENTIFIED;
+				}
 			}else{
 				this.etat.sendMessageOK(client);
 				this.etat=Etat.IDENTIFIED;
@@ -284,9 +291,6 @@ public class FtpRequest extends Thread{
 		}
 		return true;
 	}
-	
-	
-	
 
 	/**
 	 * se charge de traiter la commande LIST 
@@ -417,20 +421,21 @@ public class FtpRequest extends Thread{
 		if(this.etat==Etat.IDENTIFIED){
 			this.etat=Etat.CDUP;
 
-			if(!cheminCourant.equals(Tools.path)){
-				int index=cheminCourant.lastIndexOf("/");
-				cheminCourant=cheminCourant.substring(0, index);
+			String[] cheminSplit = cheminCourant.split("/");
+			cheminCourant="";
 
-				//on verifie qu'on a pas retire la racine
-				if(cheminCourant.equals("")){
-					cheminCourant=Tools.path;
-				}
-				
-				this.etat.sendMessageOK(client);
-			}else{
-				this.etat.sendMessageError(client);
+			//on retire le dernier element
+			for(int i=0; i<cheminSplit.length-1; i++){
+				cheminCourant+="/"+cheminSplit[i];
 			}
-			
+
+			//on verifie qu'on a pas retire la racine
+			if(cheminCourant.equals("")){
+				this.etat.sendMessageError(client);
+				cheminCourant=Tools.path;
+			}else{
+				this.etat.sendMessageOK(client);
+			}
 			this.etat=Etat.IDENTIFIED;
 
 		}else{
@@ -455,7 +460,7 @@ public class FtpRequest extends Thread{
 		if(this.etat==Etat.IDENTIFIED){
 			this.etat=Etat.RETR;
 
-			
+
 
 
 			OutputStream output;
@@ -473,17 +478,17 @@ public class FtpRequest extends Thread{
 					this.etat.sendMessageOK(client);
 					//on envoie le fichier
 					file = new FileInputStream( this.cheminCourant + "/" + fichier );
-					
+
 					while( (i = file.read()) != -1){
 						data.writeByte(i);
 					}
-	
+
 					//on ferme le fichier, la socket et le dataserversocket
 					file.close();
 					clientData.close();
 					Tools.fermerConnexion(dataServerSocket);
-	
-	
+
+
 					this.etat=Etat.RETR2;
 					this.etat.sendMessageOK(client);
 				}else{
@@ -491,8 +496,8 @@ public class FtpRequest extends Thread{
 					clientData.close();
 					Tools.fermerConnexion(dataServerSocket);
 				}
-					
-				
+
+
 
 
 

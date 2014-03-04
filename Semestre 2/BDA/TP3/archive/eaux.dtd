@@ -1,0 +1,27 @@
+<!ELEMENT cave (bouteilles, eaux, produits)>
+
+<!ELEMENT bouteilles (bouteille)*>
+<!ELEMENT bouteille (codebarre,volume)>
+<!ELEMENT codebarre (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
+<!ATTLIST bouteille ref_eau IDREF #IMPLIED>
+
+<!ELEMENT eaux (eau)*>
+<!ELEMENT eau (nom_eau, source, composition, ph)>
+<!ATTLIST eau id ID #REQUIRED>
+<!ELEMENT nom_eau (#PCDATA)>
+<!ELEMENT ph (#PCDATA)>
+
+<!ELEMENT source (nom_source, dept)>
+<!ELEMENT nom_source (#PCDATA)>
+<!ELEMENT dept (#PCDATA)>
+
+<!ELEMENT composition (taux)*>
+<!ELEMENT taux (#PCDATA)>
+<!ATTLIST taux ref_produit IDREF #REQUIRED>
+
+<!ELEMENT produits (produit)*>
+<!ELEMENT produit (nom_produit, formule)>
+<!ATTLIST produit id ID #REQUIRED>
+<!ELEMENT nom_produit (#PCDATA)>
+<!ELEMENT formule (#PCDATA)>

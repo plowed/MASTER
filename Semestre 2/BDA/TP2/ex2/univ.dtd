@@ -1,0 +1,23 @@
+<!ELEMENT universite (enseignants?,etudiants?,listecours?,matieres?,salles?)>
+  <!ELEMENT enseignants (enseignant+)>
+  <!ELEMENT etudiants (etudiant+)>
+  <!ELEMENT listecours (cours+)>
+  <!ELEMENT matieres (matiere+)>
+  <!ELEMENT salles (salle+)>
+  <!ELEMENT enseignant (#PCDATA)>
+	<!ATTLIST enseignant id_matiere IDREFS #REQUIRED>
+	<!ATTLIST enseignant id_cours IDREFS #REQUIRED>
+  <!ELEMENT cours (code, titre)>
+	<!ATTLIST cours id ID #REQUIRED>
+	<!ATTLIST cours id_salle IDREF #REQUIRED>
+  <!ELEMENT salle EMPTY>
+    <!ATTLIST salle id ID #IMPLIED>
+    <!ATTLIST salle numero CDATA #REQUIRED>
+  <!ELEMENT nom (#PCDATA) >
+  <!ELEMENT matiere (#PCDATA) >
+	<!ATTLIST matiere id_matiere ID #REQUIRED>
+  <!ELEMENT titre (#PCDATA) >
+  <!ELEMENT numero (#PCDATA) >
+  <!ELEMENT code (#PCDATA) >
+  <!ELEMENT etudiant (nom,numero)>
+	<!ATTLIST etudiant id_cours IDREFS #REQUIRED>
